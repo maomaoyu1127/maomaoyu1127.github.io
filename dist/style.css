@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+
+/**
+* Create a position for the map
+* on the page */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+ position: absolute;
+ width: 400px;
+ margin: 20px;
+ padding: 10px 20px;
+ bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 30px;
+  overflow: auto;
+  border-radius: 10px;
+  font-family: Lato, sans-serif;
+}
+
+#features {
+  top: 0;
+  height: 275px;
+  margin-top: 20px;
+  width: 250px;
+}
+
+#legend {
+ position: fixed;
+ bottom: 20px; 
+ left: 0px; 
+ width: 125px;
+ height:100 px;
+ margin: 20px;
+ padding: 0px 20px;
+ color: 80,80,80;
+ border-radius: 10px;
+ font-family: Lato, sans-serif;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
